@@ -44,3 +44,7 @@ This will automatically configure all your proxy settings.
 
 1. Download the [latest Node.js LTS Windows 64-bit installer](https://nodejs.org/en/).
 2. Install it with default recommended settings.
+
+## Attribution
+
+This guide was copied from work orignially created by Eric Dunsworth.
