@@ -15,5 +15,6 @@ call npm config set proxy http://%USERNAME%@proxy.prv:80
 call npm config set https-proxy http://%USERNAME%@proxy.prv:80
 
 ::System account proxy environment variables
-setx HTTP_PROXY http://%USERNAME%@proxy.prv:80
-setx HTTPS_PROXY http://%USERNAME%@proxy.prv:80
+::Commented out as it block the command line use (Visual Stuido integration) of ESDC Artifactory NuGet
+::setx HTTP_PROXY http://%USERNAME%@proxy.prv:80
+::setx HTTPS_PROXY http://%USERNAME%@proxy.prv:80
