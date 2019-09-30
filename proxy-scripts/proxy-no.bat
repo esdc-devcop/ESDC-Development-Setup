@@ -11,5 +11,6 @@ call npm config rm proxy
 call npm config rm https-proxy
 
 ::System account proxy environment variables
+::No longer set in `proxy-yes.bat`, leaving here to unset those that previously had it set
 setx HTTP_PROXY ""
 setx HTTPS_PROXY ""
