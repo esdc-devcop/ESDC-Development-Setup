@@ -11,7 +11,7 @@ And move it to `%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup`
 
 ## The Scripts
 
-Copy these files 
+Copy these files
 
 - [`proxy-check.bat`](proxy-scripts/proxy-check.bat)  
 - [`proxy-yes.bat`](proxy-scripts/proxy-yes.bat)  
