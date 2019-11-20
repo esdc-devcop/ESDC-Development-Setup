@@ -8,13 +8,13 @@ This will also help you install software which you will need to work on many pro
 
 ### Proxy settings
 
-If you are working on these external project daily, you should consider following all the setps in [ESDC Proxy Scripts](proxy-scripts.md). Otherwise you can just run the commands from [proxy-yes.bat file](proxy-scripts/proxy-yes.bat).
+If you are working on these external project daily, you should consider following all the steps in [ESDC Proxy Scripts](proxy-scripts.md). Otherwise you can just run the commands from [proxy-yes.bat file](proxy-scripts/proxy-yes.bat).
 
 This will automatically configure all your proxy settings.
 
 ## Software
 
-Most software you need can be downloaded though the [Application Catalog](http://srmis-sigdi-iagent.prv/WT-STO/iAgent/AppPortal/). Bellow we make not of some key software you will need to request.
+Most software you need can be downloaded through the [Application Catalog](http://srmis-sigdi-iagent.prv/WT-STO/iAgent/AppPortal/). Below we make not of some key software you will need to request.
 
 ### Git
 
@@ -43,4 +43,4 @@ Go to <http://srmis-sigdi-iagent.prv/WT-STO/iAgent/AppPortal/Home/Details/266> a
 
 ## Attribution
 
-This guide was copied from work orignially created by Eric Dunsworth.
+This guide was copied from work originally created by Eric Dunsworth.
