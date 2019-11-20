@@ -1,6 +1,6 @@
 # ESDC Development Workstation - Setup Guide
 
-This guide outlines how to set up your ESDC departmental workstation. 
+This guide outlines how to set up your ESDC departmental workstation.
 It will help you set up the networking configurations so you can pull from GitLab and GitHub.
 This will also help you install software which you will need to work on many projects in ESDC.
 
@@ -18,21 +18,28 @@ Most software you need can be downloaded though the [Application Catalog](http:/
 
 ### Git
 
-Go to http://srmis-sigdi-iagent.prv/WT-STO/iAgent/AppPortal/Home/Details/228 and click "Install".
+Go to <http://srmis-sigdi-iagent.prv/WT-STO/iAgent/AppPortal/Home/Details/228> and click "Install".
 
 **Suggested Settings:**
+
 - Use 'Vim' as the default editor
 
 **Configure Git**
 Open a command prompt and enter the following commands replacing `"Your name"` and `"email@domain.com"` (It's suggested that you use your departmental email)
+
 ```bash
 git config --global user.name "Your name"
 git config --global user.email email@domain.com
 ```
 
+### NuGet
+
+The department has access to the NuGet repositories as well as hosting its own internal source for home brewed applications.
+Check out the [EDC NuGet User Guide](nugetuserguide.md).
+
 ### Node.js
 
-Go to http://srmis-sigdi-iagent.prv/WT-STO/iAgent/AppPortal/Home/Details/266 and click "Install".
+Go to <http://srmis-sigdi-iagent.prv/WT-STO/iAgent/AppPortal/Home/Details/266> and click "Install".
 
 ## Attribution
 
