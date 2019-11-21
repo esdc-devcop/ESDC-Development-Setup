@@ -35,7 +35,7 @@ git config --global user.email email@domain.com
 ### NuGet
 
 The department has access to the NuGet repositories as well as hosting its own internal source for home brewed applications.
-Check out the [EDC NuGet User Guide](nugetuserguide.md).
+Check out the [ESDC NuGet User Guide](nugetuserguide.md).
 
 ### Node.js
 
