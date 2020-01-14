@@ -43,4 +43,4 @@ Go to <http://srmis-sigdi-iagent.prv/WT-STO/iAgent/AppPortal/Home/Details/266> a
 
 ## Attribution
 
-This guide was copied from work originally created by Eric Dunsworth.
+This guide was copied from work originally created by [@EricDunsworth](https://github.com/EricDunsworth).
