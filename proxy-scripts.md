@@ -1,8 +1,8 @@
 # ESDC Proxy Scripts
 
-Using an ESDC laptop for external project development? Not using VPN? Then use this page's scripts to make life painless when attending code sprints!
+Using an ESDC laptop for external project development? Then use this page's scripts to make life painless!
 
-When logging into Windows, the scripts will automatically check to see if you're behind the department's proxy. If you're detected as being behind the proxy, it'll automatically configure all your proxy settings and launch Skype. Otherwise, it'll remove all your proxy settings and skip Skype.
+When logging into Windows, the scripts will automatically check to see if you're behind the department's proxy. If you're detected as being behind the proxy, it'll automatically configure all your git and npm proxy settings. Otherwise, it'll remove all your git and npm proxy settings.
 
 ## Statup Script
 
@@ -17,4 +17,4 @@ Copy these files
 - [`proxy-yes.bat`](proxy-scripts/proxy-yes.bat)  
 - [`proxy-no.bat`](proxy-scripts/proxy-no.bat)  
 
-And move them to `%APPDATA%\proxy-scripts`
+And move them to `%APPDATA%\proxy\`
