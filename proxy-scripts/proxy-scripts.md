@@ -6,15 +6,15 @@ When logging into Windows, the scripts will automatically check to see if you're
 
 ## Statup Script
 
-Copy this file [`proxy-check-hidden.vbs`](proxy-scripts/proxy-check-hidden.vbs)  
+Copy this file [`proxy-check-hidden.vbs`](proxy-check-hidden.vbs)  
 And move it to `%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup`
 
 ## The Scripts
 
 Copy these files
 
-- [`proxy-check.bat`](proxy-scripts/proxy-check.bat)  
-- [`proxy-yes.bat`](proxy-scripts/proxy-yes.bat)  
-- [`proxy-no.bat`](proxy-scripts/proxy-no.bat)  
+- [`proxy-check.bat`](proxy-check.bat)  
+- [`proxy-yes.bat`](proxy-yes.bat)  
+- [`proxy-no.bat`](proxy-no.bat)  
 
 And move them to `%APPDATA%\proxy\`
