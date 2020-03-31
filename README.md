@@ -8,7 +8,7 @@ This will also help you install software which you will need to work on many pro
 
 ### Proxy settings
 
-If you are working on these external project daily, you should consider following all the steps in [ESDC Proxy Scripts](proxy-scripts.md). Otherwise you can just run the commands from [proxy-yes.bat file](proxy-scripts/proxy-yes.bat).
+If you are working on these external project daily, you should consider following all the steps in [ESDC Proxy Scripts](proxy-scripts/proxy-scripts.md). Otherwise you can just run the commands from [proxy-yes.bat file](proxy-scripts/proxy-yes.bat).
 
 This will automatically configure all your proxy settings.
 
