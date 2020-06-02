@@ -1,9 +1,11 @@
 # NuGet User Guide  
 
-**As of June 5th 2020, our internal NuGet source has been removed.**
+**As of June 5th 2020, our (ESDC's) internal NuGet source (through JFrog Artifactory) has been removed.**
 
-Packages can be stored and shared though [nuget.org](https://www.nuget.org/) (Recommended).  
-Alternatively they can be stored though a projects self managed source in Azure DevOps.
+Packages can be stored and shared though other NuGet sources like:
+
+* [nuget.org](https://www.nuget.org/)
+* Azure DevOps Artifacts (self managed sources)
 
 ## How to add the alternate Sources to Visual Studio
 
