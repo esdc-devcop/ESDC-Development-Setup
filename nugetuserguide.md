@@ -2,7 +2,7 @@
 
 **As of June 5th 2020, our (ESDC's) internal NuGet source (through JFrog Artifactory) has been removed.**
 
-Packages can be stored and shared though other NuGet sources like:
+Packages can be stored and shared through other NuGet sources like:
 
 * [nuget.org](https://www.nuget.org/)
 * Azure DevOps Artifacts (self managed sources)
