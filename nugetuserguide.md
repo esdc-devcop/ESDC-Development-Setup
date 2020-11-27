@@ -1,6 +1,6 @@
 # NuGet User Guide  
 
-**As of June 5th 2020, our (ESDC's) internal NuGet source (through JFrog Artifactory) has been removed.**
+**IMPORTANT: As of June 5th 2020, our (ESDC's) internal NuGet source (through JFrog Artifactory) has been removed.**
 
 Packages can be stored and shared through other NuGet sources like:
 
@@ -16,8 +16,6 @@ Packages can be stored and shared through other NuGet sources like:
 * Enter a name for the source to be added (ex: GoCSource)
 * Enter the url of the alternate source
 * Click "OK"*
-
-![Nuget Window](assets/nugetwindow.jpg)
 
 ## How to view and install available packages
 
