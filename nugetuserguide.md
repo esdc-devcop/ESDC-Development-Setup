@@ -7,6 +7,10 @@ Packages can be stored and shared through other NuGet sources like:
 * [nuget.org](https://www.nuget.org/)
 * Azure DevOps Artifacts (self managed sources)
 
+## URL for NuGet Source
+
+* [https://api.nuget.org/v3/index.json](https://api.nuget.org/v3/index.json)
+
 ## How to add the alternate Sources to Visual Studio
 
 * Open Visual Studio
