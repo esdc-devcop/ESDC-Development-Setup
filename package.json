@@ -10,7 +10,6 @@
   },
   "license": "OGLC",
   "devDependencies": {
-    "chalk": "^5.0.0",
     "cspell": "^4.0.28",
     "glob": "^7.1.2",
     "markdown-link-check": "^3.7.2",
