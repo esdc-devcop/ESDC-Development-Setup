@@ -10,7 +10,7 @@
   },
   "license": "OGLC",
   "devDependencies": {
-    "cspell": "^5.18.5",
+    "cspell": "^5.19.5",
     "glob": "^7.1.2",
     "markdown-link-check": "^3.10.0",
     "markdownlint-cli": "^0.31.1"
