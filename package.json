@@ -11,7 +11,7 @@
   "license": "OGLC",
   "devDependencies": {
     "cspell": "^6.18.1",
-    "glob": "^8.0.3",
+    "glob": "^8.1.0",
     "markdown-link-check": "^3.10.3",
     "markdownlint-cli": "^0.32.2"
   }
