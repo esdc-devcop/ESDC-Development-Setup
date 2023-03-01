@@ -2,17 +2,21 @@
 
 'use strict';
 
-var markdownLinkCheck = require('markdown-link-check');
-var fs = require("fs");
-var glob = require("glob");
-var path = require("path");
+const markdownLinkCheck = require('markdown-link-check');
+const fs = require("fs");
+//const glob = require("glob");
+const {globSync} = require('glob');
+const path = require("path");
 
-var files = glob.sync("**/*.md", {ignore: ["node_modules/**/*.md"]})
+//old code: var files = glob.sync("**/*.md", {ignore: ["node_modules/**/*.md"]})
+// all markdown files, but don't look in node_modules
+const files = globSync("**/*.md", {ignore: "node_modules/**/*.md" });
 
-var config = JSON.parse(fs.readFileSync(".markdown-link-check.json"));
+const config = JSON.parse(fs.readFileSync(".markdown-link-check.json"));
+// pass in a signal to cancel the glob walk
 config.timeout = '30s'
 
-var opts = JSON.parse(fs.readFileSync(".markdown-link-check.json"));
+const opts = JSON.parse(fs.readFileSync(".markdown-link-check.json"));
 
 files.forEach(function(file) {
   var markdown = fs.readFileSync(file).toString();
